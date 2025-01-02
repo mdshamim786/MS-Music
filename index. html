@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Music Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Music Player</h1>
+  </header>
+
+  <main>
+    <div class="player">
+      <h2 id="song-title">Select a song to play</h2>
+      <audio id="audio-player" controls>
+        <source id="audio-source" src="" type="audio/mp3">
+        Your browser does not support the audio element.
+      </audio>
+      <div class="playlist">
+        <button onclick="playSong('assets/song1.mp3', 'Song 1')">Play Song 1</button>
+        <button onclick="playSong('assets/song2.mp3', 'Song 2')">Play Song 2</button>
+        <button onclick="playSong('assets/song3.mp3', 'Song 3')">Play Song 3</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Music Website. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
