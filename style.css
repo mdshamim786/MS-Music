@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background: #6200ea;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  margin: 2rem auto;
+  max-width: 600px;
+}
+
+.player {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.playlist button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #6200ea;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.playlist button:hover {
+  background: #3700b3;
+}
+
+footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #6200ea;
+  color: #fff;
+}
